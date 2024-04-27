@@ -1,0 +1,34 @@
+.header, .footer {
+    background-color: #1f2937;
+}
+.logo, .website-info-text{
+    font-size:24px;
+    color: #f9faf8;
+}
+
+.website-info-heading {
+    font: 800 48px Arial, sans-serif; color: #f9faf8;
+
+}
+
+.link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.random-info {
+    font: 800 36px Arial, sans-serif; color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.text {
+    font: 300 36px Arial, sans-serif; color: #1f2937;
+    font-style: italic;
+}
+
+button, .action {
+    background-color: #3882f6;
+}
