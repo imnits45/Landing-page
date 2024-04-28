@@ -1,34 +1,234 @@
-.header, .footer {
-    background-color: #1f2937;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.logo, .website-info-text{
-    font-size:24px;
-    color: #f9faf8;
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding: 0 125px;
 }
 
-.website-info-heading {
-    font: 800 48px Arial, sans-serif; color: #f9faf8;
-
+.logo-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: calc(100% - 100px);
+  padding: 0 50px;
 }
 
-.link {
-    font-size: 18px;
-    color: #e5e7eb;
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > p {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.links > ul > li > a,
+.headline-text {
+  font-size: 18px;
+  color: #efe7eb;
+  text-decoration: none;
+}
+
+.website-info {
+  height: 400px;
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.website-info-text {
+  height: 250px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin-bottom: 5px;
+}
+
+.button1:hover {
+  box-shadow: 0 0 10px 3px rgba(56, 130, 246, 0.7);
+}
+
+.button1:active {
+  box-shadow: 0 0 20px 6px rgba(56, 130, 246, 0.9);
+}
+
+.section-2 {
+    height: 500px;
+    padding: 0 125px;
 }
 
 .random-info {
-    font: 800 36px Arial, sans-serif; color: #1f2937;
+    height: 25%;
+    display: flex;
+    justify-content: center;
 }
 
-.quote {
+.random-info >p {
+    padding: 25px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+.rand-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.images-subtext {
+    height: 90%;
+    width: 20%;
+}
+
+.images-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-subtext >img {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.images-subtext >p {
+    width: 55%;
+    text-align: center;
+}
+
+.section-3 {
     background-color: #e5e7eb;
+    height: 500px;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.text {
-    font: 300 36px Arial, sans-serif; color: #1f2937;
+.section-3 >p {
+    font-size: 36px;
+    font-weight: 300;
     font-style: italic;
+    color: #1f2937;
 }
 
-button, .action {
+.section-3 >strong {
+    font-size: 24px;
+    align-self:flex-end;
+    padding-right: 24px;
+}
+
+.section-4 {
+    height: 400px;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
+    width: 90%;
+    border-radius: 10px;
+    height: 200px;
+    padding: 0px 100px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: 700;
+}
+
+.reminder {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+.button1 {
+    width: 125px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    line-height: 16px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: none;
+  }
+  
+.button2 {
+    width: 125px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    line-height: 16px;
+    color: #f9faf8;
+    border-radius: 10px;
+  }
+  
+  .button2:hover {
+    box-shadow: 0 0 10px 3px rgba(227, 234, 247, 0.7);
+  }
+  
+  .button2:active {
+    box-shadow: 0 0 20px 6px rgba(253, 254, 255, 0.9);
+  }
+.footer {
+    height:100px;
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+  }
+
+@media (max-width: 768px) {
+  .website-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .website-info-text {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }

@@ -2,83 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel = "stylesheet" href="styles.css"> 
 </head>
 <body>
-    <div class = "container">
-        <div class = "header">
-            <div class = "logo-link">
-                <div class="logo">
-                    <p>Header Logo </p>
-                </div>
-                <div class="link">
-                    <a href="" class="header-links">Header link 1</a>
-                    <a href="" class="header-links">Header link 2</a>
-                    <a href="" class="header-links">Header link 3</a>
-                </div>
+    <div class = "section-1">
+        <div class = "logo-links">
+            <div class="logo">
+                <p>Header logo</p>
             </div>
-            <div class = website-intro>
-                <div class = "website-info">
-                    <div class="website-info-heading">
-                        <p>This website is awesome</p>
-                    </div>
-                    <div class="website-info-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempore incidunt ab, explicabo labore accusamus non repudiandae assumenda nesciunt ullam ducimus aperiam eveniet saepe exercitationem, accusantium repellendus debitis voluptate eaque?</p>
-                    </div>
-                    <div class="button1">
-                        <button>Sign up</button>
-                    </div>
-                </div>
-                <div class="landing-image">
-                    <img src="" alt = "Placeholder for an image">
-                </div>
+            <div class="links">
+                <ul style = "list-style: none;">
+                    <li>
+                        <a href="">header link one</a>
+                    </li>
+                    <li>
+                        <a href="">header link two</a>
+                    </li>
+                    <li>
+                        <a href="">header link three</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class = "information">
-            <div class = "random info">
-                <h1>Some random information</h1>
+        <div class = "website-info">
+            <div class="website-info-text">
+                <p class = "headline">This Website is awesome</p>
+                <p class = "headline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci aspernatur, doloribus officia, natus iure dolorum quibusdam fuga dolore </p>
+                <button class = "button button1"> <p>Sign up</p></button>
             </div>
-            <div class="images">
-                <div class="img1">
-                    <img src = "">
-                    <p>This is some subtext under an illustration or image</p>
-                </div>
-                <div class="img2">
-                    <img src = "">
-                    <p>This is some subtext under an illustration or image</p>
-                </div>
-                <div class="img3">
-                    <img src = "">
-                    <p>This is some subtext under an illustration or image</p>
-                </div>
-                <div class="img4">
-                    <img src = "">
-                    <p>This is some subtext under an illustration or image</p>
-                </div>
-            </div>
+            <img class = "header-image" style="height: 250px; width: 50%;" src="">
         </div>
-        <div class = "quote">
-            <div class="text">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur neque dignissimos recusandae eos praesentium accusantium tempore quasi libero quod est perspiciatis nulla adipisci minus inventore, deserunt veniam nostrum, fugiat officiis.</p>
-            </div>
-            <div class="author">
-                <p>Thor, God of thunder</p>
-            </div>
+    </div>
+
+    <div class="section-2">
+        <div class="random-info">
+            <p>Some Random Information.</p>
         </div>
-        <div class = "action">
-            <div class="sign-up">
-                <p>Call to action it's time!</p>
-                <p>sign up for our product by clicking that button over there</p>
-            </div>
-            <div class="button2">
-                <button>Sign up</button>
-            </div>
+        <div class="rand-images">
+            <div class="images-subtext"><img src = "" style="height: 65%; width: 55%;"> <p>Some text under the illustration</p></div>
+            <div class="images-subtext"><img src = "" style="height: 65%; width: 55%;"> <p>Some text under the illustration</p></div>
+            <div class="images-subtext"><img src = "" style="height: 65%; width: 55%;"> <p>Some text under the illustration</p></div>
+            <div class="images-subtext"><img src = "" style="height: 65%; width: 55%;"> <p>Some text under the illustration</p></div>
         </div>
-        <div class = "footer">
-            <abbr>Copyright @ The Odin Project 2021</abbr>
+    </div>
+
+    <div class="section-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta culpa repellat ipsam illo optio? Eaque itaque, numquam aperiam, quae dicta temporibus quo maxime amet dolorem esse, nemo saepe quasi neque. Lorem ipsum dolor sit amet</p>
+        <br>
+        <strong>-Thor, God of Thunder </strong>
+    </div>
+
+    <div class = "section-4">
+        <div class = "action-container">
+            <div class = "sign-up">
+                <p class = "action">Call to action! it's time!</p>
+                <p class = "reminder"> Sign up for product by clicking
+                    the button right over there </p>
+                </p>
+            </div>
+            <button class = "button button2">Sign up</button>
         </div>
+    </div>
+    <div class = "footer">
+        <abbr>Copyright &copy; The Odin Project 2024</abbr>
     </div>
 </body>
 </html>
